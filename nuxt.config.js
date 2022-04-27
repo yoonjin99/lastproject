@@ -77,6 +77,9 @@ export default {
 
   generate:{
     fallback: true,
+    routes: [
+      '/move',
+    ]
   },
 
   mode:'universal',
