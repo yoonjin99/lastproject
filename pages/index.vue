@@ -1,7 +1,7 @@
 <template>
-  <LazyHydrate never >
+<!--  <LazyHydrate never >-->
     <Tutorial/>
-  </LazyHydrate>
+<!--  </LazyHydrate>-->
 </template>
 
 <script>
