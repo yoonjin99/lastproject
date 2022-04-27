@@ -45,8 +45,7 @@ export default {
     // 'nuxt-ssr-cache',
   ],
 
-  // buildDir: 'dist',
-
+  buildDir: 'dist',
 
   // axios: {
   //   baseURL: 'http://localhost:8080', // Used as fallback if no runtime config is provided
@@ -74,7 +73,7 @@ export default {
     }
   },
 
-  // target: 'static',
+  target: 'static',
 
   mode:'universal',
   // Build Configuration: https://go.nuxtjs.dev/config-build
