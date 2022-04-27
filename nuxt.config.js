@@ -18,9 +18,9 @@ export default {
 
   // cache: true,
 
-  parallel: true,
-  cache: true,
-  hardSource: true,
+  // parallel: true,
+  // cache: true,
+  // hardSource: true,
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
