@@ -85,6 +85,6 @@ export default {
   mode:'universal',
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    ssr:false,
+    ssr:true,
   }
 }
