@@ -17,7 +17,7 @@ import axios from 'axios'
 
 export default {
   asyncData ({ route, error }) {
-    return axios.get(`http://localhost:8080/api/test2`, {params : {exhId : 1}})
+    return axios.get(`http://124a-219-240-45-245.ngrok.io/api/test2`, {params : {exhId : 1}})
       .then((res) => {
         return { items: res.data }
       })

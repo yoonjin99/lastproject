@@ -62,7 +62,7 @@ export default {
 
   publicRuntimeConfig: {
     axios: {
-      baseURL: 'localhost:8080', // Used as fallback if no runtime config is provided
+      baseURL: 'http://124a-219-240-45-245.ngrok.io ', // Used as fallback if no runtime config is provided
       proxy: false // Can be also an object with default options
     },
   },
