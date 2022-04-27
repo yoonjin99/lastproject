@@ -63,7 +63,7 @@ export default {
   publicRuntimeConfig: {
     axios: {
       baseURL: 'http://localhost:8080', // Used as fallback if no runtime config is provided
-      proxy: true // Can be also an object with default options
+      proxy: false // Can be also an object with default options
     },
   },
 
